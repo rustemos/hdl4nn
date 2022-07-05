@@ -13,9 +13,8 @@ Those Verilog documents constitute a neural network: three fully connected hidde
 This module is the top-level module, it utilizes the Component instantiation to incorporate all submodules(hidden layers) into a neuron network.
 
 ## IP core:
-Distributed Memory Generator(8.0) was used as a cache for weights.
-----------
-Adder/Substrater(12.0) was used as a DSP adder in Output Block in each hidden layer.
+### Distributed Memory Generator(8.0) was used as a cache for weights.
+### Adder/Substrater(12.0) was used as a DSP adder in Output Block in each hidden layer.
 
 ## Time frequency: 400 MHz
 Set by constrain file.
